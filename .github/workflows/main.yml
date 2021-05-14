@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CT_TARGET_BRANCH: main
+      CT_CHART_DIRS: charts
     steps:
       - name: Checkout
         uses: actions/checkout@v2
