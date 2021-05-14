@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   rancher-demo:
   - apiVersion: v2
+    appVersion: 1.0.13
+    created: "2021-05-14T15:25:57.644751757Z"
+    description: Rancher demo application, web UI showing scale of containers
+    digest: 19883a2fa019dedd9b3659a757d1ed1ce20a2d3fa50bf64e2a6a4a0584a9b05b
+    icon: https://udemy-images.udemy.com/course/750x422/1527740_a494.jpg
+    name: rancher-demo
+    type: application
+    urls:
+    - https://github.com/bashofmann/demo-charts/releases/download/rancher-demo-2.2.0/rancher-demo-2.2.0.tgz
+    version: 2.2.0
+  - apiVersion: v2
     appVersion: 1.0.12
     created: "2021-05-14T15:16:44.048770691Z"
     description: Rancher demo application, web UI showing scale of containers
